@@ -19,3 +19,21 @@ while (i <= 10) {
     i++;
 
 }
+
+// chiedi un numero N all'utente. stampa i numeri da 0 a N usando un ciclo for
+
+const numero = Number(prompt('Inserisci un numero'));
+
+for (let i = 0; i <= numero; i++) {
+    console.log(i);
+
+}
+
+// Stampa la tabellina del 5
+
+for (let i = 1; i <= 10; i++) {
+    console.log(i * 5);
+
+}
+
+

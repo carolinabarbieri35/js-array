@@ -85,6 +85,49 @@ while (prezzo !== 0) {
 console.log('il totale della spesa è', totale);
 
 
+// L'utente ha 3 tentativi per indovinare la password. Stampa "Benvenuto" se riesce nei tentativi consentiti, altrimenti "Bloccato"
+
+const password = 'ciao';
+
+const indovina = prompt('Inserisci password');
+
+
+for (let i = 1; i <= 3; i++) {
+
+
+    if (indovina === password) {
+        console.log('Benvenuto');
+
+
+    } else console.log('Password errata');
+}
+
+// Il computer pensa a un numero tra 1 e 100. L'utente indovina. Dopo ogni tentativo sbagliato, il computer dice "Troppo alto" o "Troppo basso" per aiutare l'utente.`
+
+let numComputer = Math.floor(Math.random() * 100) + 1;
+console.log(numComputer);
+
+let numeroPc = Number(prompt('indovina il numero del computer'));
+console.log(numeroPc);
+
+while (numComputer !== numeroPc) {
+    if (numComputer > numeroPc) {
+        console.log('Troppo basso');
+
+
+    } else {
+        console.log('Troppo alto');
+
+    }
+
+    numeroPc = Number(prompt('Riprova a indovinare'));
+
+}
+
+console.log('Hai indovinato');
+
+
+
 
 
 

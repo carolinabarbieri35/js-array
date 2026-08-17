@@ -41,5 +41,28 @@ console.log(numeriPari);
 
 // Dato un array di temperature settimanali [19, 21, 18, 23, 25, 22, 20], trova il valore massimo e trova il valore minino
 
+const temperature = [19, 21, 18, 23, 25, 22, 20];
 
+let max = temperature[0];
+let min = temperature[0];
+
+for (let i = 1; i < temperature.length; i++) {
+
+    if (temperature[i] > max) {
+        max = temperature[i];
+
+    }
+
+    if (temperature[i] < min) {
+
+        min = temperature[i];
+
+    }
+
+
+
+}
+
+console.log(max);
+console.log(min);
 

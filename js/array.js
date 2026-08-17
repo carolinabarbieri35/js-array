@@ -66,3 +66,28 @@ for (let i = 1; i < temperature.length; i++) {
 console.log(max);
 console.log(min);
 
+// Dato l'array di voti [6, 8, 4, 9, 5, 7, 10], calcolare la media dei voti.
+
+const voti = [6, 8, 4, 5, 7, 10];
+
+let somma = 0;
+
+for (let i = 0; i < voti.length; i++) {
+
+    somma += voti[i];
+
+
+
+}
+
+const media = somma / voti.length;
+
+console.log(media);
+
+
+// Dato l'array ['Marco', 'Anna', 'Luca', 'Giulia', 'Tommaso'], crea un nuovo array con solo i nomi che hanno più di 4 lettere
+
+
+
+
+

@@ -87,6 +87,23 @@ console.log(media);
 
 // Dato l'array ['Marco', 'Anna', 'Luca', 'Giulia', 'Tommaso'], crea un nuovo array con solo i nomi che hanno più di 4 lettere
 
+const nomi = ['Marco', 'Anna', 'Luca', 'Giulia', 'Tommaso'];
+
+const nomiLunghi = [];
+
+for (let i = 0; i < nomi.length; i++) {
+    const nomeCorrente = nomi[i];
+
+    if (nomeCorrente.length > 4) {
+
+        nomiLunghi.push(nomeCorrente);
+
+    }
+
+}
+console.log(nomiLunghi);
+console.table(nomiLunghi);
+
 
 
 

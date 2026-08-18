@@ -155,6 +155,17 @@ console.log(random);
 
 
 
+// Da un estratto conto bancario (array), estrai solo le ultime 3 transazioni effettuate.
+
+const estrattoConto = [200, 150, -200, 1500, -700, 320, 500];
+
+const ultimeTre = estrattoConto.slice(-3);
+
+console.log(ultimeTre);
+
+
+
+
 
 
 

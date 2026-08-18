@@ -105,6 +105,34 @@ console.log(nomiLunghi);
 console.table(nomiLunghi);
 
 
+// Chiedi all'utente 5 numeri e salvali in un array. Alla fine calcola e stampa la somma di tutti i numeri inseriti.
+
+const numeriDati = [];
+
+let somme = 0;
+
+
+for (let i = 0; i < 5; i++) {
+
+    const dati = Number(prompt('Scrivi un numero'));
+
+    numeriDati.push(dati);
+
+    somme += numeriDati[i];
+
+
+
+}
+
+
+console.log(numeriDati);
+console.log(somme);
+
+
+
+
+
+
 
 
 

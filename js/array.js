@@ -129,6 +129,33 @@ console.log(numeriDati);
 console.log(somme);
 
 
+// Genera 10 numeri random e salvali in un array. I numeri nell'array devono essere univoci (non ci devono essere ripetizioni dello stesso numero all'interno dell'array)
+
+
+const random = [];
+
+while (random.length < 10) {
+
+    const randomici = Math.floor(Math.random() * 20);
+
+    if (!random.includes(randomici)) {
+
+        random.push(randomici);
+
+    }
+
+
+
+
+
+
+}
+
+console.log(random);
+
+
+
+
 
 
 
